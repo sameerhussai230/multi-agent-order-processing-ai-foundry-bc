@@ -1,7 +1,10 @@
-streamlit>=1.40.0
-langgraph>=0.2.0
-langchain-groq>=0.1.9
-langfuse>=2.30.0
-python-dotenv>=1.0.1
-requests>=2.31.0
-msal>=1.28.0
+streamlit>=1.67
+pandas
+requests
+msal
+python-dotenv
+azure-identity
+azure-ai-projects>=2.0.0
+openai
+opentelemetry-api
+azure-monitor-opentelemetry

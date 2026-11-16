@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "BC_TENANT_ID": "sameeraidatatech.onmicrosoft.com",
+    "BC_CLIENT_ID": "<entra-app-client-id>",
+    "BC_CLIENT_SECRET": "<entra-app-client-secret>",
+    "BC_ENVIRONMENT": "Production",
+    "BC_COMPANY_ID": "CRONUS IN",
+    "BC_DEFAULT_VENDOR": "<valid vendor No.>",
+    "BC_WRITE_ENABLED": "false"
+  }
+}
