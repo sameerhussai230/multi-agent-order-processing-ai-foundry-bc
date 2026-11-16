@@ -44,42 +44,6 @@ Key principles:
 
 ## 2. Architecture
 
-<div align="center">
-
-<table>
-<tr>
-<td align="center">📧<br><b>Customer email</b></td>
-<td>➜</td>
-<td align="center">🖥️<br><b>Streamlit app</b><br>(app.py)</td>
-<td>➜</td>
-<td align="center">⚙️<br><b>Orchestrator</b><br>(orchestrator.py)<br>pre-flight + guardrails</td>
-<td>➜</td>
-<td align="center"><img src="assets/icons/foundry-agent.svg" width="48" height="48"><br><b>Sales Intake Agent</b><br>Microsoft Foundry</td>
-<td>➜</td>
-<td align="center"><img src="assets/icons/business-central.svg" width="48" height="48"><br><b>Business Central</b><br>customers, items, orders</td>
-</tr>
-<tr>
-<td></td><td></td><td></td><td></td>
-<td align="center">⚖️<br><b>Stock short?</b></td>
-<td>➜</td>
-<td align="center"><img src="assets/icons/foundry-agent.svg" width="48" height="48"><br><b>Procurement Agent</b><br>Microsoft Foundry</td>
-<td>➜</td>
-<td align="center"><img src="assets/icons/business-central.svg" width="48" height="48"><br><b>Purchase order</b><br>in Business Central</td>
-</tr>
-<tr>
-<td></td><td></td><td></td><td></td>
-<td align="center">🧑‍⚖️<br><b>Human triage</b><br>(SQLite)</td>
-<td></td>
-<td align="center">🗄️<br><b>Audit log + lineage</b><br>(SQLite)</td>
-<td></td>
-<td align="center">📈<br><b>Telemetry</b><br>(Application Insights, optional)</td>
-</tr>
-</table>
-
-</div>
-
-### Flow diagram
-
 ```mermaid
 flowchart LR
   A["📧 Customer email"] --> B["🛡️ Pre-flight checks"]
