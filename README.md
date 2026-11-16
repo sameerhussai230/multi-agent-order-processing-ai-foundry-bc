@@ -68,7 +68,21 @@ flowchart LR
   class E,G good
   class T triage
 ```
+---
 
+## 📸 Architecture & UI Gallery
+
+| Azure Resource Group | Microsoft Foundry Full Lineage Trace |
+| :---: | :---: |
+| ![Azure Resources](assets/Resources.png) | ![Full Lineage](assets/Full_Lineage.png) |
+| *Azure resources including Application Insights, Foundry, and Project* | *End-to-end multi-agent execution trace and graph view* |
+
+| Sales-Intake-Agent Configuration | Procurement-Agent Configuration |
+| :---: | :---: |
+| ![Sales Intake Agent](assets/Sales-intake-Agent.png) | ![Procurement Agent](assets/Procurement-Agent.png) |
+| *Sales Intake Agent instructions and function tools* | *Procurement Agent instructions and inventory tools* |
+
+---
 ### Components
 
 | Component | Role |
