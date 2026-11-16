@@ -1,16 +1,31 @@
-# Virtual Environment
-venv/
-
-# Environment Variables (Security)
-.env
-
-# Python Cache
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+ENV/
+api_details/
+# Environment Variables & Secrets
+.env
+local.settings.json
 
-# IDE Settings
-.vscode/
-
-# Local SQLite Database (Prevents pushing local audit history)
+# Databases
+*.db
+*.sqlite
+governance.db
 orders_log.db
 
-api_details/
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Local PDFs / Temp Documents
+*.pdf
