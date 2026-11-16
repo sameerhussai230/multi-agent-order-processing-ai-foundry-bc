@@ -33,7 +33,7 @@ Key principles:
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=ECrHzK-Wen4" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com/vi/ECrHzK-Wen4/maxresdefault.jpg" alt="Multi-Agent Order Processing Demo Video" width="100%" style="border-radius: 8px;">
+    <img src="https://img.youtube.com/vi/ECrHzK-Wen4/hqdefault.jpg" alt="Multi-Agent Order Processing Demo Video" width="100%" style="border-radius: 8px;">
   </a>
   <br/>
   <p><b>▶️ Click the image above to watch the full demo video on YouTube</b></p>
